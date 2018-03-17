@@ -8,7 +8,14 @@ body{
 }
 
 img{
-  width: 500px;
+  width: 300px;
+  height: 200px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* HEADER */
@@ -91,11 +98,42 @@ img{
 .featured{
   border: 3px dotted white;
   width: 1000px;
-  
+text-align: center;
+margin-top: 30px;
 }
 
+.featured1{
+  display: flex;
+justify-content: space-around;
+}
 
+.fall p{
+  margin: 10px;
+}
 
+.spiced p{
+  margin: 10px;
+}
 
+.seasonal p{
+  margin: 10px;
+}
 
-/*MISSION*/
+.featured2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.myrtle{
+  margin-right: 30px;
+}
+
+.myrtle p{
+  margin:10px;
+}
+
+.bedford p{
+  margin: 10px;
+}
+/*Featured*/
