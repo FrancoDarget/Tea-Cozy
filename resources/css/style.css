@@ -7,6 +7,10 @@ body{
   margin: 0;
 }
 
+img{
+  width: 500px;
+}
+
 /* HEADER */
 .header{
   display: flex;
@@ -37,23 +41,21 @@ body{
 /* HEADER */
 
 /*CONTENT*/
-
 .content{
   position: relative;
   border: 3px solid red;
   top: 69px;
 }
-
 /*CONTENT*/
 
 
 /*MISSION*/
-
 .mission{
   border: 2px solid blue;
   height: 700px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .mission img{
@@ -62,19 +64,38 @@ body{
   width: 1200px;
 }
 
-.mission h2{
-position: absolute;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+.mission .info{
+  position: absolute;
+ width: 100%;
+ background-color: black;
+ text-align: center;
+ padding: 0px;
+ margin: 0px;
 }
 
-.mission h4{
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.mission .info h2{
+  font-size: 1.5em;
+  margin: 0px;
+  padding: 5px;
 }
+
+.mission .info h4{
+  font-size: 22px;
+  margin: 0px;
+  padding: 5px;
+}
+/*MISSION*/
+
+/*FEATURED*/
+
+.featured{
+  border: 3px dotted white;
+  width: 1000px;
+  
+}
+
+
+
+
 
 /*MISSION*/
