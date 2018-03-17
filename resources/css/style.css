@@ -4,31 +4,77 @@ body{
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-  text-align: center;
   margin: 0;
 }
 
 /* HEADER */
-
 .header{
-  height: 69px;
-  position: fixed;
+  display: flex;
   border-bottom: 1px solid seashell;
   width: 100%;
   align-items: center;
+  justify-content: space-between;
+  position: fixed;
   background-color: black;
+  height: 69px;
+  z-index: 10;
 }
 
 .header .logo{
-  display: flex;
   height: 50px;
   margin-left: 10px;
-  justify-content: flex-start;
-  align-items: center;
 }
 
 .header .nav{
-display: flex;
-justify-content: flex-end;
+  display: flex;
+  margin-right: 10px;
+}
+
+.header .nav a{
+  padding: 20px 10px;
+  color: seashell;
 }
 /* HEADER */
+
+/*CONTENT*/
+
+.content{
+  position: relative;
+  border: 3px solid red;
+  top: 69px;
+}
+
+/*CONTENT*/
+
+
+/*MISSION*/
+
+.mission{
+  border: 2px solid blue;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.mission img{
+  height: 700px;
+  border: 1px solid green;
+  width: 1200px;
+}
+
+.mission h2{
+position: absolute;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.mission h4{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*MISSION*/
