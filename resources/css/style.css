@@ -7,11 +7,6 @@ body{
   margin: 0;
 }
 
-img{
-  width: 300px;
-  height: 200px;
-}
-
 .content{
   display: flex;
   justify-content: center;
@@ -111,12 +106,27 @@ justify-content: space-around;
   margin: 10px;
 }
 
+.fall img{
+height: 200px;
+width: 300px;
+}
+
 .spiced p{
   margin: 10px;
 }
 
+.spiced img{
+height: 200px;
+width: 300px;
+}
+
 .seasonal p{
   margin: 10px;
+}
+
+.seasonal img{
+height: 200px;
+width: 300px;
 }
 
 .featured2{
@@ -133,7 +143,92 @@ justify-content: space-around;
   margin:10px;
 }
 
+.myrtle img{
+height: 200px;
+width: 300px;
+}
+
 .bedford p{
   margin: 10px;
 }
+
+.bedford img{
+height: 200px;
+width: 300px;
+}
 /*Featured*/
+
+/*Locations*/
+.locations{
+  width: 1200px;
+  display: flex;
+  border: 3px dotted orange;
+  height: 500px;
+  justify-content: center;
+  margin-top: 80px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.locations h2{
+display: flex;
+justify-content: center;
+}
+
+.loc1{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+  margin-bottom: 70px;
+  opacity: 1.0;
+  padding: 10px;
+
+}
+
+.downtown{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.east{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  margin-right: 40px;
+  text-align: center;
+}
+
+.oakdale{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+margin-right: 25px;
+  text-align: center;
+}
+/*Locations*/
+
+/*Contact*/
+.contact{
+  display: flex;
+  flex-direction: column;
+  border: 5px solid white;
+  width: 100%;
+  text-align: center;
+  height: 200px;
+}
+.contact h2{
+margin: 0px;
+}
+
+.footer{
+  border: 1px dotted blue;
+  width: 100%;
+  padding-left: 20px;
+}
+/*Contact*/
